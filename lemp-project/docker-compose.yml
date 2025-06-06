@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx:1.25-alpine
+    networks:
+      - backend
+      - frontend
+
+  php:
+    image: php:8.3-fpm
+    networks:
+      - backend
+
+  db:
+    image: mysql:8.3
+    networks:
+      - backend
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.2
+    networks:
+      - backend
+      - frontend
+
+networks:
+  backend:
+  frontend:
