@@ -199,7 +199,7 @@ Zamiast jawnych zmiennych środowiskowych, dane dostępowe są przekazane przez:
 ![PHPMyAdmin](image2.png)
 
 ✅ Stack LEMP:
-![LEMP ](image2.png)
+![LEMP ](image3.png)
 
 ---
 
